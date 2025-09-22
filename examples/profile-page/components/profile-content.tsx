@@ -31,15 +31,15 @@ export default function ProfileContent() {
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
               <div className="space-y-2">
                 <Label htmlFor="firstName">First Name</Label>
-                <Input id="firstName" defaultValue="John" />
+                <Input id="firstName" defaultValue="John Carl" />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="lastName">Last Name</Label>
-                <Input id="lastName" defaultValue="Doe" />
+                <Input id="lastName" defaultValue="Baculi" />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="email">Email</Label>
-                <Input id="email" type="email" defaultValue="john.doe@example.com" />
+                <Input id="email" type="email" defaultValue="john.baculi@example.com" />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="phone">Phone</Label>
